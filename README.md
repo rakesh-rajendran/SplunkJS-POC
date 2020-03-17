@@ -7,7 +7,7 @@ SplunkJS POC
 
 :speech_balloon:
 - [nginx](http://nginx.org/en/download.html) server is used as Proxy (configured to listen in port 9000). This was required while connecting from external web apps since no_proxy configurations was failing with **err_cert_authority_invalid** error.
-- Addtionally, Use a *'Security Disabled'* browser. [Disable CORS] (https://alfilatov.com/posts/run-chrome-without-cors/)
+- Addtionally, Use a *'Security Disabled'* browser. [Disable CORS](https://alfilatov.com/posts/run-chrome-without-cors/)
 
 Example - "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --user-data-dir="C:\Users\rakesh.rajendran\AppData\Local\Google\Chrome DEV" --disable-web-security
 
